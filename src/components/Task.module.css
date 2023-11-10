@@ -1,14 +1,15 @@
 .task {
-    background: var(--gray-500);
+    background: var(--grey-500);
     width: 100%;
     min-height: 4.5rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1.5rem 1fr auto;
     align-items: flex-start;
     column-gap: 12px;
     margin-bottom: 12px;
     padding: 1rem;
     border-radius: 8px;
-    border: 1px solid var(--gray-400);
+    border: 1px solid var(--grey-400);
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
     font-size: 0.875rem;
     line-height: 140%;
@@ -26,10 +27,15 @@
     text-align: justify;
 }
 
+.complete {
+  text-decoration: line-through;
+}
+
 .trashButton {
     background: transparent;
     border: 0;
     cursor: pointer;
+    justify-self: end;
 }
 
 .trashButton img {
