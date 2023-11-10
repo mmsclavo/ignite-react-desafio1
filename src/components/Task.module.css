@@ -1,0 +1,37 @@
+.task {
+    background: var(--gray-500);
+    width: 100%;
+    min-height: 4.5rem;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 12px;
+    margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    font-size: 0.875rem;
+    line-height: 140%;
+}
+
+.task input[type=checkbox] {
+    display: none;
+}
+
+.task img {
+    height: 1.5rem;
+}
+
+.task label {
+    text-align: justify;
+}
+
+.trashButton {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.trashButton img {
+    width: 1.875rem;
+}

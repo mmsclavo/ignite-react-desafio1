@@ -1,0 +1,78 @@
+.todo {
+  max-width: 46rem;
+  margin: -1.6875rem auto 2rem auto;
+}
+
+.todoForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 4rem;
+}
+
+.todoForm input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  padding: 1rem;
+  color: var(--gray-100);
+}
+
+.todoForm button {
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    border: none;
+    padding: 1rem;
+}
+
+.todoList header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+    font-size: 0.875rem;
+}
+
+.createdTasks {
+    display: flex;
+    column-gap: 8px;
+}
+
+.createdTasks strong {
+    color: var(--blue);
+}
+
+.createdTasks span {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+.completedTasks {
+    display: flex;
+    column-gap: 8px;
+}
+
+.completedTasks strong {
+    color: var(--purple);
+}
+
+.completedTasks span {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
