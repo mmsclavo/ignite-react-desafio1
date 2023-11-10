@@ -29,6 +29,7 @@
 
 .complete {
   text-decoration: line-through;
+  color: var(--grey-300);
 }
 
 .trashButton {
