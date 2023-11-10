@@ -7,10 +7,6 @@ import styles from './Todo.module.css';
 import plus from '../assets/plus.svg';
 import clipboard from '../assets/clipboard.svg';
 
-const contentTaskMock = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odio ducimus sint fugiat
-illo optio voluptas dicta nostrum iure aliquam aliquid libero adipisci repellendus, velit
-est impedit, labore, eveniet ab!`;
-
 export function Todo() {
   const [taskList, setTaskList] = useState<TaskModel[]>([]);
   const [newContentTask, setNewContent] = useState('');
